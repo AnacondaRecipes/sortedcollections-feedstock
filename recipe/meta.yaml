@@ -21,7 +21,8 @@ requirements:
     - setuptools
   run:
     - python
-    - sortedcontainers
+    # uses SortedKeyList which was added in sortecontainers 2.0
+    - sortedcontainers >=2.0
 
 test:
   imports:
